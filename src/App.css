@@ -1,0 +1,136 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ */
+
+ .SuperContainer{
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+/*   border: 1px solid black; */
+ }
+
+ .Container{
+  padding: 15%;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px rgb(206, 206, 206);
+  
+ }
+
+ #Titulo{
+  text-align: center;
+ }
+
+ #add{
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    background-color: rgb(108, 177, 255);
+    color: white;
+    cursor: pointer;
+ }
+ #add:hover{
+  background-color: rgb(76, 143, 219);
+}
+#add:active{
+  background-color: rgb(53, 130, 218);
+}
+
+ .text{
+
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+ }
+
+ .task1{
+  display: flex;
+  justify-content: center;
+  border: 1px transparent  ;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(238, 238, 238);
+  
+    
+
+}
+
+.radio{
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.buton{
+  margin: 5px;
+  padding: 10px;
+  color: rgb(71, 128, 202);
+  border: none;
+  cursor: pointer;
+}
+
+.buton:hover{
+  background-color: rgb(209, 209, 209);
+}
+.buton:active{
+  background-color: rgb(201, 201, 201 );
+}
+
+.buton1{
+  margin: 5px;
+  padding: 10px;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+.buton1:hover{
+  background-color: rgb(209, 209, 209);
+}
+.buton1:active{
+  background-color: rgb(201, 201, 201 );
+}
+
+.alinear{
+
+  padding: 5px;
+}
+
+
+#Clear{
+
+  background-color: rgb(255, 95, 95);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  margin-left: 230px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#Clear:hover{
+  background-color: rgb(250, 36, 36);
+}
+
+#Clear:active{
+
+  background-color: rgb(231, 4, 46);
+}
+
+.text{
+  width: 79%;
+  padding: 5px;
+  align-items: center;
+}
+
