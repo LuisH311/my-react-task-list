@@ -2,7 +2,7 @@ import './App.css'
 import Footer from './Componentes/Footer'
 import Header from "./Componentes/Header"
 import Task from './Componentes/Task'
-import TaskList from './Componentes/TaskList'
+
 
 
 function App() {
@@ -11,12 +11,8 @@ function App() {
     <div className='SuperContainer'>
     <div className="Container">
     <Header/>
-    <TaskList/>
-    <Task/>
+    <Task /* createNewTask ={createNewTask} *//>
     <Footer/>
-    
-
-
     </div>
     </div>
   )
