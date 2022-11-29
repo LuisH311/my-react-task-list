@@ -35,15 +35,49 @@
     border-radius: 5px;
     border: none;
     padding: 6px;
-    background-color: rgb(108, 177, 255);
+    background-color: rgb(34, 212, 28);
     color: white;
     cursor: pointer;
  }
  #add:hover{
-  background-color: rgb(76, 143, 219);
+  background-color: rgb(19, 248, 11);
 }
 #add:active{
-  background-color: rgb(53, 130, 218);
+  background-color: rgb(13, 139, 9);
+}
+
+#editar{
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin: 2px;
+  background-color: rgb(245, 210, 12);
+  color: white;
+  cursor: pointer;
+
+}
+#editar:hover{
+background-color: rgb(255, 217, 0);
+}
+#editar:active{
+background-color: rgb(189, 161, 3);
+}
+
+#update{
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin: 2px;
+  background-color: rgb(108, 177, 255);
+  color: white;
+  cursor: pointer;
+
+}
+#update:hover{
+background-color: rgb(76, 143, 219);
+}
+#update:active{
+background-color: rgb(53, 130, 218);
 }
 
  .text{
