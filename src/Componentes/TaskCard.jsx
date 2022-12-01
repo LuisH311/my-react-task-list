@@ -18,21 +18,26 @@ function TaskCard({ tareaHecha, task, updateTask }) {
         }}
         checked={task.done}
         readOnly
-      />
+        />
       <button
         id="editar"
         onClick={(e) => {
           e.preventDefault();
-
+          
           if (!upDateValidate) {
             setUpDateValidate(true);
           } else {
             setUpDateValidate(false);
           }
         }}
-      >
+        >
         <AiOutlineEdit />
       </button>
+      <div className="input">
+      <p >{task.description}</p>
+      <div className="btn">
+          </div>
+      </div>
       {upDateValidate ? (
         <form>
           <input
