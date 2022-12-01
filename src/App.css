@@ -45,12 +45,23 @@
 #add:active{
   background-color: rgb(13, 139, 9);
 }
+.input{
+  display: flex;
+  width: 100%;
+  gap: 10PX;
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #editar{
   border-radius: 5px;
+
   border: none;
   padding: 3px;
-  margin: 2px;
   background-color: rgb(245, 210, 12);
   color: white;
   cursor: pointer;

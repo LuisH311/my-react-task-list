@@ -3,8 +3,11 @@ import TaskList from "./TaskList";
 import { useEffect } from "react";
 import TaskCard from "./TaskCard";
 
+
 function Task() {
   const [taskItems, setTaskItems] = useState([]);
+  const [taskdes, settaskdes] = useState("");
+ 
 
   
   const updateTask = (name, namenew) => {
@@ -48,18 +51,37 @@ function Task() {
     window.location.reload();
   };
 
-  function createNewTask(taskName) {
+  function createNewTask(taskName, taskDescription) {
     if (!taskItems.find((task) => task.name === taskName)) {
       setTaskItems([
         ...taskItems,
         {
           name: taskName,
+          description: taskDescription,
           done: false,
           label: "",
         },
       ]);
     }
   }
+
+
+/*   function createDescription(taskDescription) {
+    if (!taskdes.find((task)=> task.description === taskDescription)) {
+      settaskdes([
+        ...taskdes,
+        {
+          name: taskDescription,
+          done: false,
+          label: ""
+        }
+      ]);
+      
+    }
+    
+  } */
+
+  
 
   const toggeletask = (task) => {
     setTaskItems(
@@ -81,6 +103,7 @@ function Task() {
     <div className="task">
       <TaskList
         createNewTask={createNewTask}
+/*         createDescription={createDescription} */
         toggeletask={toggeletask}
         taskItems={taskItems}
       />
